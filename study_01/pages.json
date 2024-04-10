@@ -1,0 +1,123 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText" : "主页"
+				
+			}
+		},
+		{
+			
+				"path" : "pages/message/message",
+				"style" : 
+				{
+					"navigationBarTitleText" : "信息",
+					"enablePullDownRefresh" : false
+				}
+		},
+		
+		{
+			"path" : "pages/community/index/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "社区",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/person/person",
+			"style" : 
+			{
+				"navigationBarTitleText" : "我",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/todoList/todoList",
+			"style" : 
+			{
+				"navigationBarTitleText" : "待办事项列表",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/moneyCheck/moneyCheck",
+			"style" : 
+			{
+				"navigationBarTitleText" : "余额查询",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/getTask/getTask",
+			"style" : 
+			{
+				"navigationBarTitleText" : "获取任务列表",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/moneyDetail/moneyDetail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "时间币出入详情",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/finishTask/finishTask",
+			"style" : 
+			{
+				"navigationBarTitleText" : "完成事务记录",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/taskDetail/taskDetail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "任务详情",
+				"enablePullDownRefresh" : false
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#0A0406",
+		"selectedColor": "#4CCFFF",
+		"list": [
+			{
+				"text": "首页",
+				"pagePath": "pages/home/home",
+				"iconPath": "static/image/home.png",
+				"selectedIconPath": "static/image/home (1).png"
+			},
+			{
+				"text": "信息",
+				"pagePath": "pages/message/message",
+				"iconPath": "static/image/message.png",
+				"selectedIconPath": "static/image/message (1).png"
+			},
+			{
+				"text": "社区",
+				"pagePath": "pages/community/index/index",
+				"iconPath": "static/image/community_light.png",
+				"selectedIconPath": "static/image/community_light (1).png"
+			},
+			{
+				"text": "个人",
+				"pagePath": "pages/person/person",
+				"iconPath": "static/image/person.png",
+				"selectedIconPath": "static/image/person (1).png"
+			}
+		]
+	}
+}
