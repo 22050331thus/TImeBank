@@ -1,6 +1,6 @@
 <template>
 	<view class="index">
-		<input type="text" placeholder=" 搜索" class="input" />
+		<input type="text" placeholder=" 搜索" class="input" confirm-type="search"/>
 		<view class="image-show">
 			<swiper :indicator-dots="true" :autoplay="true" :interval="3000" :duration="800" circular="true">
 				<swiper-item>

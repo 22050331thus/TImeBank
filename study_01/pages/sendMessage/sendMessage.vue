@@ -1,7 +1,10 @@
 <template>
 	<view>
-		<view class="">
+		<view class="sendMessage">
 			
+			<form action="">
+				<p>标题：</p>
+			</form>
 		</view>
 	</view>
 </template>
